@@ -1,0 +1,8 @@
+train: /home/rik/Documents/face_spoof_detection/dataset/splitdata/train/images
+val: /home/rik/Documents/face_spoof_detection/dataset/splitdata/val/images
+test: /home/rik/Documents/face_spoof_detection/dataset/splitdata/test/images
+
+nc: 2
+names: ['fake', 'real']
+
+
