@@ -60,5 +60,9 @@ Achieved *high model accuracy* by epoch 3, demonstrating strong early convergenc
 Rik Singha Mahapatra
 Sanu Manna
 
+## Note
+This project was originally completed in July 2024 as part of my core course.
+I uploaded it to GitHub to archive the work and share it publicly.
+
 ### Contacts
 Author: Uttarayan Haldar | [LinkedIn](https://www.linkedin.com/in/uttarayan-haldar/)
