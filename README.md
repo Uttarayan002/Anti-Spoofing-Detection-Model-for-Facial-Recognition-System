@@ -1,46 +1,41 @@
-# Anti-Spoofing Detector for Facial Recognition System
+# Anti-Spoofing Detector Model for Facial Recognition System
 *"The best way to enhance security is through facial recognition."*
-## Description
+____________________________________________________________________________________________________________________________________________________________________________________________________
+
+# Project Overview
 Anti-spoofing techniques aim to differentiate between live (genuine) and fake (spoofed) facial inputs. The development of robust anti-spoofing detectors is vital for the security and efficacy of facial 
 recognition systems. By preventing unauthorized access and reducing false acceptance rates, these systems can achieve higher reliability and usertrust. Enhanced anti-spoofing measures ensure that facial 
 recognition technology can be safely deployed in sensitive and high-security environments, such as financial institutions, government facilities, and personal devices. The domain of anti-spoofing in facial 
 recognition encompasses the intersection of computer vision, machine learning, and cybersecurity. It addresses critical challenges posed by spoofing attacks, aiming to fortify facial recognition systems 
 against fraudulent activities and ensure secure and reliable biometric authentication.
+____________________________________________________________________________________________________________________________________________________________________________________________________
 
+# Installation and Set-up
 ## Dependencies
 Check it out before any further procedure -> [requirements](https://github.com/Uttarayan002/Anti-Spoofing-Detector-for-Facial-Recognition-System/blob/main/requirement.txt.txt)
 
-
-## Installation
+## Python Packages Used
 There are few tools that needed to be installed before proceeding.                                                                                                                                              
 Install the latest version of 'python' which is 3.12.0.                                                                                                                                                
 Tools/Libraries:                                                                                                                                                                                                
- cvzone: `pip install cvzone`                                                                                                                                                                           
- face_recognition: `pip install face-recognition`                                                                                                                                                                
-  tkinter: `pip install tk`                                                                                                                                                                                          
-   cv2: `pip install opencv-python`
-
-## Usage 
-
-The Usage part should cover:
-
-- Data Preparation (how to preprocess data)
-Collect your own data by taking pictures of several live entities/human being as well as video Captured them and store it into collection of data set file. Also create a folder  for fake images which are
-pictures of which is captured from videos and other devices, but not the liveimages.                                                                                                                       
+- cvzone: `pip install cvzone`                                                                                                                                                                           
+- face_recognition: `pip install face-recognition`
+- tkinter: `pip install tk`                                                                                                                                                                                  -
+- cv2: `pip install opencv-python`
+________________________________________________________________________________________________________________________________________________________________________________
+# Data 
+We collected our own Datasets for this project.
+## Source Data
+we wrote some scripts which eventuallt leads to automate the data collection and labelling process. It is recommended to everyone if you are using real world applications use your own datasets in your own environment. Collect from different human being with various face shapes & structures, distinct outfits and different places. All you need a few and solid lines of script aand  webcam.ive person.
+                                                                                                                       
 Folders: python data/data_collection.py and python data/data.yaml
-  
-- Training the Model->
-run the main file : `python src/main.py` --epochs 3                                                                                                                                          
- - Evaluation/Inference:                                                                                                                                                                                         
-  Test the model:  `python yolo_test.py`
+________________________________________________________________________________________________________________________________________________________________________________
 
-## Dataset
-There are no particular datasets for this project. It can be made by your own self. Just.
-For the dataset of this project, you need to collect the real-time images of your own, relatives, friends and other people near around you. On the other hand, you will collect the fake images, from any screen 
-devices like laptop, mobile or tv screen and anything which will consider as fake. After that  you need to create two folders like live images and for the fake images,  for the live images folder you will store 
-the live images of yourself and other live human being. And on the fake folder you will store fake images which are the images of the any other person from your screen device, but not the live person.
+# Results and evaluation                                                                                                                                     
+Evaluation/Inference:                                                                                                                                                                                     Test the model:  `python yolo_test.py`
 
 ## Results
+Achieved *high model accuracy* by epoch 3, demonstrating strong early convergence.
 
 | Metric        | Achieve       |
 | ------------- | ------------- |
@@ -48,21 +43,26 @@ the live images of yourself and other live human being. And on the fake folder y
 | Recall        | 0.999         |
 | mAP           | 0.99192       |
 
-Achieved *high model accuracy* by epoch 3, demonstrating strong early convergence.
-
 ![confusion_matrix](https://github.com/user-attachments/assets/b67b1bb3-16a8-4c91-b86e-fcc2295636e7)
 
+## How it will WORK!!
+![spoof detection (real)](https://github.com/user-attachments/assets/23fc3856-8b15-4e5d-9618-13ae1e832839) ![spoof detection (fake)2](https://github.com/user-attachments/assets/72302ee0-8b1b-421b-8504-ff39a76b6284)
+________________________________________________________________________________________________________________________________________________________________________________
 
-## License
+# Future Work 
+- Although this project aims to differentiate between liveliness and the spooked detection, which helps to secure any authentic data from the third party or unknown sources.
+- We also aim to leverage by integrate with the cloud computing which helps in the real time production level, or industrial level.
+
+# License
 [MIT](https://github.com/Uttarayan002/Anti-Spoofing-Detector-for-Facial-Recognition-System?tab=MIT-1-ov-file)
 
-## Contributor
+# Contributor
 Rik Singha Mahapatra
 Sanu Manna
 
 ## Note
-This project was originally completed in July 2024 as part of my core course.
+This project was originally completed in July 2024 as part of our core course.
 I uploaded it to GitHub to archive the work and share it publicly.
 
-### Contacts
+## Contacts
 Author: Uttarayan Haldar | [LinkedIn](https://www.linkedin.com/in/uttarayan-haldar/)
