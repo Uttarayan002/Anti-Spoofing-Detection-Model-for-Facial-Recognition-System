@@ -10,6 +10,23 @@ recognition encompasses the intersection of computer vision, machine learning, a
 against fraudulent activities and ensure secure and reliable biometric authentication.
 ____________________________________________________________________________________________________________________________________________________________________________________________________
 
+# Project Goal 
+This project aims to develop a robust, deep learning-based anti-spoofing detector to enhance the security of facial recognition systems. By leveraging YOLOv8 and OpenCV, the model:
+
+- Accurately distinguishes between live faces and spoofing attempts (e.g., printed photos, digital screens, or masks).
+
+- Reduces false acceptance rates (FAR) and prevents unauthorized access in high-security environments (e.g., banking, government, or personal devices).
+
+- Achieves >99% accuracy while ensuring seamless integration with existing facial recognition pipelines.
+
+**Key Objectives**
+
+1. Improve biometric security by detecting sophisticated spoofing attacks.
+
+2. Optimize real-time performance for practical deployment.
+
+3. Maintain user convenience without compromising authentication rigor.
+ 
 # Installation and Set-up
 ## Dependencies
 Check it out before any further procedure -> [requirements](https://github.com/Uttarayan002/Anti-Spoofing-Detector-for-Facial-Recognition-System/blob/main/requirement.txt.txt)
