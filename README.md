@@ -25,8 +25,8 @@ Tools/Libraries:
 ________________________________________________________________________________________________________________________________________________________________________________
 # Data 
 We collected our own Datasets for this project.
-## Source Data
-we wrote some scripts which eventuallt leads to automate the data collection and labelling process. It is recommended to everyone if you are using real world applications use your own datasets in your own environment. Collect from different human being with various face shapes & structures, distinct outfits and different places. All you need a few and solid lines of script aand  webcam.ive person.
+**Source Data**
+Relevant Data are collected by generated specific scripts which eventually leads to automate the data collection and labelling process. It is recommended to everyone if you are using real world applications use your own datasets in your own environment. Collect from different human being with various face shapes & structures, distinct outfits and different places. All you need a few and solid lines of script aand  webcam.ive person.
                                                                                                                        
 Folders: python data/data_collection.py and python data/data.yaml
 ________________________________________________________________________________________________________________________________________________________________________________
