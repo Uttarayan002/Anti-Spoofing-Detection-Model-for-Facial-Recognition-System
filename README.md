@@ -71,12 +71,12 @@ ________________________________________________________________________________
 - Although this project aims to differentiate between liveliness and the spooked detection, which helps to secure any authentic data from the third party or unknown sources.
 - We also aim to leverage by integrate with the cloud computing which helps in the real time production level, or industrial level.
 
-# License
-[MIT](https://github.com/Uttarayan002/Anti-Spoofing-Detector-for-Facial-Recognition-System?tab=MIT-1-ov-file)
+## License
+[MIT License](https://github.com/Uttarayan002/Anti-Spoofing-Detector-for-Facial-Recognition-System?tab=MIT-1-ov-file)
 
-# Contributor
-Rik Singha Mahapatra
-Sanu Manna
+## Contributor
+- Rik Singha Mahapatra
+- Sanu Manna
 
 ## Note
 This project was originally completed in July 2024 as part of our core course.
