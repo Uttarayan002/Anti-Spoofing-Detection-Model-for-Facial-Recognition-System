@@ -1,4 +1,4 @@
-# Anti-Spoofing Detector Model for Facial Recognition System (May 2024 - Jul 2024)
+# Real-Time Anti-Spoofing Model for Securing Biometric Authentication (May 2024 - Jul 2024)
 *"The best way to enhance security is through facial recognition."*
 ____________________________________________________________________________________________________________________________________________________________________________________________________
 
