@@ -3,11 +3,11 @@ DEPENDENCIES for this project
 OS: Windows
 
 Hardware requirements: 12GB RAM, 520 SSD, Graphics card.
-Good Internet connect
+Good Internet connection
 
 Python latest version (3.12.0)
 
-Modules : cvzone, cv2, tkinter, facial_recognition.
+Modules : cvzone, cv2, tkinter, facial_recognition, opencv
 Other modules: 
 numpy==1.21.0
 pandas==1.3.0
